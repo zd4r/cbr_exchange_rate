@@ -83,4 +83,4 @@ curl http://localhost:8080/v1/dynamic_quotes | jq .
 
 `max_quote.date` - дата максимального значения курса валюты
     
-`avg_quote` - среднее значение курса рубля
+`avg_quote.value` - среднее значение курса рубля
