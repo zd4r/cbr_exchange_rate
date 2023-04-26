@@ -24,29 +24,29 @@ $ curl http://localhost:8080/v1/dynamic_quotes | jq .
     {
       "currency": "Австралийский доллар",
       "min_quote": {
-        "Value": 48.9734992980957,
-        "Date": "26.01.2023"
+        "value": 48.9735,
+        "date": "26.01.2023"
       },
       "max_quote": {
-        "Value": 55.28450012207031,
-        "Date": "15.04.2023"
+        "value": 55.2845,
+        "date": "15.04.2023"
       },
       "avg_quote": {
-        "Value": 51.67447096301663
+        "value": 51.6745
       }
     },
     {
       "currency": "Азербайджанский манат",
       "min_quote": {
-        "Value": 40.5630989074707,
-        "Date": "26.01.2023"
+        "value": 40.5631,
+        "date": "26.01.2023"
       },
       "max_quote": {
-        "Value": 48.46989822387695,
-        "Date": "08.04.2023"
+        "value": 48.4699,
+        "date": "08.04.2023"
       },
       "avg_quote": {
-        "Value": 44.768420742404075
+        "value": 44.7684
       }
     },
     
@@ -55,15 +55,15 @@ $ curl http://localhost:8080/v1/dynamic_quotes | jq .
     {
       "currency": "Японская иена",
       "min_quote": {
-        "Value": 0.529015998840332,
-        "Date": "26.01.2023"
+        "value": 0.529,
+        "date": "26.01.2023"
       },
       "max_quote": {
-        "Value": 0.6255130004882813,
-        "Date": "08.04.2023"
+        "value": 0.6255,
+        "date": "08.04.2023"
       },
       "avg_quote": {
-        "Value": 0.572459582051923
+        "value": 0.5725
       }
     }
   ]
