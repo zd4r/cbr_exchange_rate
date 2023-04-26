@@ -5,16 +5,20 @@ API предоставляет данные по переводу различн
 ## Запуск сервиса
 Выполните команду для клонирования репозитория:
 ```bash
-$ git clone git@github.com:zd4r/cbr_exchange_rate.git
+git clone git@github.com:zd4r/cbr_exchange_rate.git
 ```
-Далее выполните команду для запуска сервиса:
+Перейдите в папку проекта:
 ```bash
-$ make compose-build-up
+cd cbr_exchange_rate
+```
+И выполните команду для запуска сервиса:
+```bash
+make compose-build-up
 ```
 ## Пример использования
 Получение данных о котировках валют (минимальные, максимальные и средние значения) за последние 90 дней (для форматирования ответа необходима утилита [jq](https://github.com/stedolan/jq):
 ```bash
-$ curl http://localhost:8080/v1/dynamic_quotes | jq .
+curl http://localhost:8080/v1/dynamic_quotes | jq .
 ```
 
 Пример ответа:
