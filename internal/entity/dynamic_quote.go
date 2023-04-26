@@ -14,17 +14,17 @@ type DynamicQuote struct {
 }
 
 type MinPrice struct {
-	Value float64
-	Date  string
+	Value float64 `json:"value"`
+	Date  string  `json:"date"`
 }
 
 type MaxPrice struct {
-	Value float64
-	Date  string
+	Value float64 `json:"value"`
+	Date  string  `json:"date"`
 }
 
 type AvgPrice struct {
-	Value float64
+	Value float64 `json:"value"`
 }
 
 type Quote struct {
